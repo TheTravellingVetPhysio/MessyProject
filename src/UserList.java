@@ -2,15 +2,15 @@ import java.util.ArrayList;
 
 public class UserList
 {
-    public ArrayList<User> userList = new ArrayList<User>();
+    public ArrayList<User> userList = new ArrayList<>();
 
-    public void add(User u)
+    public void add(User user)
     {
-        this.userList.add(u);
-        if(u == null)
+        if(user == null)
         {
             return;
         }
+        this.userList.add(user);
     }
 
     public ArrayList<User> getu()
