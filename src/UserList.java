@@ -4,7 +4,7 @@ public class UserList
 {
     public ArrayList<User> userList = new ArrayList<>();
 
-    public void add(User user)
+    public void addUser(User user)
     {
         if(user == null)
         {
@@ -13,7 +13,7 @@ public class UserList
         this.userList.add(user);
     }
 
-    public ArrayList<User> getu()
+    public ArrayList<User> getUserList()
     {
         return userList;
     }
